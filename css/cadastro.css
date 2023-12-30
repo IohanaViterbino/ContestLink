@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --dark-blue: #063489;
+    --regular-blue: #0B5CF4;
+    --alternative-blue: #084AC4;
+    --white: #fff;
+    --black: #181818;
+    --grey: #D9D9D9;
+    --dark-grey: #7A7A7A;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.main-btn{
+    background-color: var(--regular-blue);
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.main-btn:hover{
+    background-color: #134FC2;
+}
+
+/* Main */
+
+body{
+    background-color: var(--regular-blue);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.register-container{
+    width: 50%;
+    padding: 50px 50px;
+    background-color: var(--white);
+    border-radius: 12px;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.title-container h1{
+    text-align: center;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-container p{
+    color: var(--dark-grey);
+    margin-top: 30px;
+}
+.form-container input{
+    padding: 12px;
+    margin: 15px 0px 15px 0px;
+    color: var(--dark-grey);
+    border: 2px solid #D9D9D9;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.password-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password-container input{
+    width: 43%;
+}
+
+.terms-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.terms-container input{
+    margin-right: 15px;
+}
+.button-container button{
+    padding: 12px 30px;
+    margin: 12px 0px 12px 0px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.button-container a{
+    color: var(--dark-grey);
+    font-size: 14px;
+}
+
+/* Responsividade */
+
+@media(max-width: 460px){
+    .title-container h1{
+        font-size: 20px;
+    }
+    .password-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .password-container input{
+        width: 85%;
+    }
+    .form-container p, .terms-container span{
+        font-size: 14px;
+    }
+}
