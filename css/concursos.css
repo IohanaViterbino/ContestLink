@@ -25,7 +25,7 @@ a{
 }
 
 header{
-    padding: 25px 50px;
+    padding: 1.56rem 3.13rem;
     background-color: var(--dark-blue);
 }
 
@@ -36,7 +36,7 @@ header{
 }
 
 .header-container p{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--white);
 }
@@ -46,8 +46,8 @@ header{
 }
 
 .header-container button{
-    padding: 12px 30px;
-    margin-left: 15px;
+    padding: 0.75rem 1.88rem;
+    margin-left: 0.93rem;
 }
 
 .header-container button:hover{
@@ -70,7 +70,7 @@ header{
     transition: 0.3s;
     border: none;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-weight: 700;
 }
 
@@ -79,14 +79,14 @@ header{
 }
 
 .header-container i{
-    font-size: 30px;
+    font-size: 1.88rem;
     color: var(--white);
     cursor: pointer;
     display: none;
 }
 
 nav{
-    padding: 15px 50px;
+    padding: 0.93rem 3.13rem;
     background-color: var(--alternative-blue);
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@ nav{
 
 .nav-container li a{
     color: #fff;
-    margin-right: 25px;
+    margin-right: 1.56rem;
     transition: 0.5s;
 }
 
@@ -120,32 +120,129 @@ nav{
 }
 
 .searchbar-container input{
-    padding: 10px;
-    width: 250px;
+    padding: 0.62rem;
+    width: 15.63rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .fa-magnifying-glass{
     color: var(--white);
-    font-size: 24px;
-    margin-left: 12px;
+    font-size: 1.5rem;
+    margin-left: 0.75rem;
     cursor: pointer;
     display: flex;
     align-items: center;
 }
 
 /* Main */
+main{
+    margin: 1.88rem 2.5rem;
+}
 
+.title-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.88rem;
+}
+
+.fa-book-bookmark{
+    color: var(--regular-blue);
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.contests-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-filter{
+    display: none;
+}
+
+.selection-container{
+    flex-grow: 5;
+    margin-right: 1.88rem;
+}
+
+/*box new contest*/
+.new-contest{
+    background-color: #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    padding: 1.25rem 1.50rem;
+    border-radius: 0.73rem;
+    transition: 0.3s;
+    margin: 0rem 0rem 1.88rem 0rem;
+    justify-content: left;
+}
+
+.new-contest img{
+    flex-grow: 1;
+    width: 9rem;
+    height: 7.88rem;
+    border-radius: 0.75rem;
+    margin-right: 1rem;
+}
+
+.box-contest-info{
+    flex-grow: 3;
+    margin-right: 1rem;
+    line-height: 2rem;
+    font-size: 1.25rem;
+}
+
+.box-contest-info p{
+    color: var(--dark-grey);
+}
+
+.box-contest-info div{
+    background-color: var(--regular-blue);
+    border: 0.1rem solid var(--black);
+    border-radius: 0.5rem;
+    color: var(--white);
+    font-size: 0.75rem;
+    text-align: center;
+    width: 5.25rem;
+    height: 1.75rem;
+    margin-top: 1rem;
+}
+
+.box-contest-options{
+    flex-grow: 2;
+}
+
+
+/*filter aside*/
+.filter-container{
+    background-color: var(--grey);
+    flex-grow: 1;
+    padding: 1.88rem 0.12rem;
+    border: 0.06rem solid #181818;
+    border-radius: .75rem;
+}
+
+.searchbar-container{
+    display: flex;
+    margin: 0rem 0rem 1.25rem 0rem;
+}
+
+.searchbar-container input{
+    width: 100%;
+    padding: 0.62rem;
+    border: none;
+    border-radius: 0.5rem;
+}
 /*Footer*/
 
 footer{
-    padding: 25px 50px;
+    padding: 1.56rem 3.13rem;
     background-color: var(--dark-blue);
 }
 
 .logo-footer p{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--white);
 }
@@ -161,7 +258,7 @@ footer{
 
 .socialmedia-links li{
     color: var(--white);
-    margin-right: 10px;
+    margin-right: 0.62rem;
 }
 
 .socialmedia-links span{
@@ -174,17 +271,17 @@ footer{
 }
 
 .socialmedia-links{
-    margin: 40px 0px;
+    margin: 2.5rem 0rem;
 }
 
 .socialmedia-logos{
-    margin: 30px 0px;
+    margin: 1.88rem 0rem;
 }
 
 .socialmedia-logos i{
     color: var(--white);
-    font-size: 40px;
-    margin-right: 20px;
+    font-size: 2.5rem;
+    margin-right: 1.25rem;
 }
 
 .socialmedia-logos i:hover{
@@ -194,7 +291,7 @@ footer{
 .copyright-footer{
     color: var(--white);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -243,17 +340,17 @@ footer{
 
     /* Header */
     header{
-        padding: 25px 15px;
+        padding: 1.56rem 0.93rem;
         background-color: var(--dark-blue);
     }
     .header-container i{
         display: flex;
-        font-size: 30px;
+        font-size: 1.88rem;
     }
     .header-container p{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 30px;
+        font-size: 1.88rem;
     }
 }
